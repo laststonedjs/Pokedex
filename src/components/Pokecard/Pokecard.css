@@ -10,10 +10,15 @@
   transform: translateZ(0);
   transition: transform 0.25 ease-out;
   margin: 1opx;
-  width: 120px;
+  width: 128px;
   flex-grow: 1;
 }
 
 .pokecard:hover {
   transform: scale(1.05);
+}
+
+.pokemon-sprite {
+  height: 85px;
+  width: 85px;
 }
